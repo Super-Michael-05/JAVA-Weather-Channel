@@ -2,7 +2,6 @@ package com.example.weatherchannel;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.CalendarView;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -21,7 +20,7 @@ import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView t1_temp, t2_city, t3_description, t4_date;
+    TextView t1_temp,t2_city,t3_description,t4_date;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         find_weather();
     }
     public void find_weather() {
-        String url = "http://api.openweathermap.org/data/2.5/weather?q=kirkkonummi,finland&appid=48c0eb71736c9d90039d04e5c83581a0&units=metric";
+        String url = "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=48c0eb71736c9d90039d04e5c83581a0";
 
         JsonObjectRequest jor = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
             @Override
@@ -75,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
             public void onErrorResponse(VolleyError error) {
 
             }
-        });
+        }
+        );
         RequestQueue queue = Volley.newRequestQueue(this);
         queue.add(jor);
     }
