@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#5ac1e3">
 
     <TextView
         android:id="@+id/t1_temp"
+        android:textColor="#000000"
         android:layout_width="124dp"
         android:layout_height="133dp"
         android:text="30"
@@ -21,6 +23,7 @@
 
     <TextView
         android:id="@+id/t2_city"
+        android:textColor="#000000"
         android:layout_width="130dp"
         android:layout_height="25dp"
         android:text="My City"
@@ -34,6 +37,7 @@
 
     <TextView
         android:id="@+id/t3_description"
+        android:textColor="#000000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sunny"
@@ -47,6 +51,7 @@
 
     <TextView
         android:id="@+id/t4_date"
+        android:textColor="#000000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Date"
@@ -60,6 +65,7 @@
 
     <TextView
         android:id="@+id/t5_C"
+        android:textColor="#000000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="C"
@@ -70,5 +76,28 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.143" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="115dp"
+        android:layout_height="280dp"
+        android:src="@drawable/sun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="480dp"
+        android:layout_height="287dp"
+        android:src="@drawable/mountains"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
