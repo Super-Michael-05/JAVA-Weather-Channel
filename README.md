@@ -1,6 +1,6 @@
 <h1 align="center">JAVA Weather Channel</h1>
 
-![Banner](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/banner.png)
+![Banner](https://raw.githubusercontent.com/Super-Michael-05/JAVA-Weather-Channel/master/README_assets/banner.png)
 
 <h2 align="left">Project images</h2>
 
