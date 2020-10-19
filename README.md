@@ -4,10 +4,8 @@
 
 <h2 align="left">Project images</h2>
 
-![1st](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/Screenshot%20(1).png)
+![1st](https://raw.githubusercontent.com/Super-Michael-05/JAVA-Weather-Channel/master/README_assets/Screenshot%20(4).png)
 
-![2nd](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/Screenshot%20(2).png)
-
-![3rd](https://raw.githubusercontent.com/Super-Michael-05/myCV/master/README_assets/Screenshot%20(3).png)
+![2nd](https://raw.githubusercontent.com/Super-Michael-05/JAVA-Weather-Channel/master/README_assets/Screenshot%20(5).png)
 
 <footer>Created by Mikael Kolehmainen with Java, XML.</footer>
